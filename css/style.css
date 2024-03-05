@@ -1,0 +1,49 @@
+/* Mulish Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Inter Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.font-mulish {
+    font-family: "Mulish", sans-serif;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+#banner{
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/bgbanner.png), url(../images/bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    transform: translate(50px, 21px);
+}
+
+
+.register{
+    width: 100%;
+    height: 450px;
+    background-image:url('../images/regbg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
